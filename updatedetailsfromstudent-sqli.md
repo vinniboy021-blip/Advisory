@@ -158,13 +158,12 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 28-updatedetailsfromstudent-sqli](evidencia-web-28-updatedetailsfromstudent-sqli.png)
+<img width="1180" height="1042" alt="evidencia-web-28-updatedetailsfromstudent-sqli" src="https://github.com/user-attachments/assets/0957b139-3fb9-424c-b969-37ff3e5cbd01" />
+
 
 **b) Vulnerable code line** (`updatedetailsfromstudent.php`):
 
-![Source code evidence — 28-updatedetailsfromstudent-sqli](evidencia-codigo-28-updatedetailsfromstudent-sqli.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="800" alt="evidencia-codigo-28-updatedetailsfromstudent-sqli" src="https://github.com/user-attachments/assets/c2491a67-1345-443f-adef-923467375d47" />
 
 ---
 
