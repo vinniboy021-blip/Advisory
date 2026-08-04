@@ -164,8 +164,6 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 <img width="2360" height="800" alt="evidencia-codigo-08-updatequery-sqli" src="https://github.com/user-attachments/assets/9e82a390-6e8c-4d8d-9712-42c6ec74ead4" />
 
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
-
 ---
 
 ## 8. Proof of Concept
