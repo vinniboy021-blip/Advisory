@@ -154,13 +154,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 23-csrf](evidencia-web-23-csrf.png)
+<img width="1180" height="842" alt="evidencia-web-23-csrf" src="https://github.com/user-attachments/assets/8c3f89c3-6bc8-4ae7-a253-b9d04e6d901d" />
 
 **b) Vulnerable code line** (`addnewfaculty.php`):
 
-![Source code evidence — 23-csrf](evidencia-codigo-23-csrf.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="800" alt="evidencia-codigo-23-csrf" src="https://github.com/user-attachments/assets/92f1c46f-08b7-483f-bf23-4de513d23555" />
 
 ---
 
