@@ -156,13 +156,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 17-addnewstudent-sqli](evidencia-web-17-addnewstudent-sqli.png)
+<img width="1180" height="1016" alt="evidencia-web-17-addnewstudent-sqli" src="https://github.com/user-attachments/assets/4c37814c-84fe-4703-9a23-24c8ac2f1202" />
 
 **b) Vulnerable code line** (`addnewstudent.php`):
 
-![Source code evidence — 17-addnewstudent-sqli](evidencia-codigo-17-addnewstudent-sqli.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="1600" alt="evidencia-codigo-17-addnewstudent-sqli" src="https://github.com/user-attachments/assets/ffbc4ef0-801c-4579-9301-422562fa6d37" />
 
 ---
 
