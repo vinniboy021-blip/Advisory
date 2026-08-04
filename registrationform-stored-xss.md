@@ -158,15 +158,9 @@ anonymous payload reflected WITHOUT encoding in studentdetails.php (admin panel)
 
 Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, in a non-destructive manner. Observed behavior confirms the Stored / Persistent Cross-Site Scripting (public self-registration) flaw.
 
-**a) Execution in browser** (real server response rendered, with evidence band):
+**a) Vulnerable code line** (`registrationform.php`):
 
-![Web execution evidence — 36-registrationform-stored-xss](evidencia-web-36-registrationform-stored-xss.png)
-
-**b) Vulnerable code line** (`registrationform.php`):
-
-![Source code evidence — 36-registrationform-stored-xss](evidencia-codigo-36-registrationform-stored-xss.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="940" alt="evidencia-codigo-36-registrationform-stored-xss" src="https://github.com/user-attachments/assets/829df334-4a35-43c4-bb94-1ec4fb1aa6b9" />
 
 ---
 
