@@ -154,11 +154,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 09-updatequery-stored-xss](evidencia-web-09-updatequery-stored-xss.png)
+<img width="1180" height="1357" alt="evidencia-web-09-updatequery-stored-xss" src="https://github.com/user-attachments/assets/61a02642-1c67-496a-9f1d-1d736d7bffbc" />
 
 **b) Vulnerable code line** (`updatequery.php`):
 
-![Source code evidence — 09-updatequery-stored-xss](evidencia-codigo-09-updatequery-stored-xss.png)
+<img width="2360" height="980" alt="evidencia-codigo-09-updatequery-stored-xss" src="https://github.com/user-attachments/assets/fec69a76-449d-4dc2-ad2d-99160ec82dc8" />
 
 > **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
 
