@@ -161,13 +161,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 26-grade-tampering](evidencia-web-26-grade-tampering.png)
+<img width="1180" height="886" alt="evidencia-web-26-grade-tampering" src="https://github.com/user-attachments/assets/7ae002bc-dd0f-4c2e-a2f4-6c053dc7856e" />
 
 **b) Vulnerable code line** (`updateresultdetails.php`):
 
-![Source code evidence — 26-grade-tampering](evidencia-codigo-26-grade-tampering.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="740" alt="evidencia-codigo-26-grade-tampering" src="https://github.com/user-attachments/assets/b376b79e-5fe5-46d3-b113-322d36d93670" />
 
 ---
 
