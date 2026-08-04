@@ -158,11 +158,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 08-updatequery-sqli](evidencia-web-08-updatequery-sqli.png)
+<img width="1180" height="1042" alt="evidencia-web-08-updatequery-sqli" src="https://github.com/user-attachments/assets/df264b2d-de48-45c0-a71b-3bf14fcf3723" />
 
 **b) Vulnerable code line** (`updatequery.php`):
 
-![Source code evidence — 08-updatequery-sqli](evidencia-codigo-08-updatequery-sqli.png)
+<img width="2360" height="800" alt="evidencia-codigo-08-updatequery-sqli" src="https://github.com/user-attachments/assets/9e82a390-6e8c-4d8d-9712-42c6ec74ead4" />
 
 > **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
 
