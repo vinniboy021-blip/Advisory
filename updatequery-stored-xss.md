@@ -156,8 +156,6 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 <img width="2360" height="980" alt="evidencia-codigo-09-updatequery-stored-xss" src="https://github.com/user-attachments/assets/fec69a76-449d-4dc2-ad2d-99160ec82dc8" />
 
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
-
 ---
 
 ## 8. Proof of Concept
