@@ -152,11 +152,7 @@ payload reflected WITHOUT encoding: </textarea><script>alert(document.domain)</s
 
 Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, in a non-destructive manner. Observed behavior confirms the Stored / Persistent Cross-Site Scripting flaw.
 
-**a) Execution in browser** (real server response rendered, with evidence band):
-
-<img width="1180" height="1357" alt="evidencia-web-09-updatequery-stored-xss" src="https://github.com/user-attachments/assets/61a02642-1c67-496a-9f1d-1d736d7bffbc" />
-
-**b) Vulnerable code line** (`updatequery.php`):
+**a) Vulnerable code line** (`updatequery.php`):
 
 <img width="2360" height="980" alt="evidencia-codigo-09-updatequery-stored-xss" src="https://github.com/user-attachments/assets/fec69a76-449d-4dc2-ad2d-99160ec82dc8" />
 
