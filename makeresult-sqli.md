@@ -158,13 +158,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 14-makeresult-sqli](evidencia-web-14-makeresult-sqli.png)
+<img width="1180" height="1042" alt="evidencia-web-14-makeresult-sqli" src="https://github.com/user-attachments/assets/5229f5ab-997b-43b8-852a-852b495577b3" />
 
 **b) Vulnerable code line** (`makeresult.php`):
 
-![Source code evidence — 14-makeresult-sqli](evidencia-codigo-14-makeresult-sqli.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="860" alt="evidencia-codigo-14-makeresult-sqli" src="https://github.com/user-attachments/assets/f45e45d1-4705-440a-a75f-869150dbc863" />
 
 ---
 
@@ -329,5 +327,5 @@ Use of information in this document is solely the reader's responsibility.
 
 For corrections, updates or additional information:
 
-- **Email:** vinniboy021@gmail.com
+- **Emails:** vinniboy021@gmail.com and rmsbpro@gmail.com
 - **Repository:** https://github.com/mathurvishal/CloudClassroom-PHP-Project
