@@ -154,13 +154,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 18-addnewstudent-stored-xss](evidencia-web-18-addnewstudent-stored-xss.png)
+<img width="1180" height="1357" alt="evidencia-web-18-addnewstudent-stored-xss" src="https://github.com/user-attachments/assets/b07b1f4f-9175-4093-9df2-26c01bd2f77a" />
 
 **b) Vulnerable code line** (`addnewstudent.php`):
 
-![Source code evidence — 18-addnewstudent-stored-xss](evidencia-codigo-18-addnewstudent-stored-xss.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="860" alt="evidencia-codigo-18-addnewstudent-stored-xss" src="https://github.com/user-attachments/assets/db21e347-d17f-404c-b320-49ad41f27328" />
 
 ---
 
