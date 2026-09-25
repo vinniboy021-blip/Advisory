@@ -159,13 +159,11 @@ Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, i
 
 **a) Execution in browser** (real server response rendered, with evidence band):
 
-![Web execution evidence — 00-broken-access-control](evidencia-web-00-broken-access-control.png)
+<img width="1180" height="1016" alt="evidencia-web-00-broken-access-control" src="https://github.com/user-attachments/assets/adacfbd7-92ac-4ee0-9c50-ff8b03f83ef4" />
 
 **b) Vulnerable code line** (`managevideos2.php`):
 
-![Source code evidence — 00-broken-access-control](evidencia-codigo-00-broken-access-control.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="860" alt="evidencia-codigo-00-broken-access-control" src="https://github.com/user-attachments/assets/70bbd39e-6720-46c9-a563-2ee362cd0e70" />
 
 ---
 
