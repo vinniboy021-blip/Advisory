@@ -157,14 +157,10 @@ Cookie: PHPSESSID=<session — dispensable via item 00 (Broken Access Control)>
 Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, in a non-destructive manner. Observed behavior confirms the SQL Injection in DELETE statement (error-based + data destruction) flaw.
 
 **a) Execution in browser** (real server response rendered, with evidence band):
-
-![Web execution evidence — 20-deleteid-sqli-family](evidencia-web-20-deleteid-sqli-family.png)
+<img width="1180" height="1016" alt="evidencia-web-20-deleteid-sqli-family" src="https://github.com/user-attachments/assets/89be22a9-3d77-46f0-9d7b-7dedbb91d815" />
 
 **b) Vulnerable code line** (`facultydetails.php`):
-
-![Source code evidence — 20-deleteid-sqli-family](evidencia-codigo-20-deleteid-sqli-family.png)
-
-> **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
+<img width="2360" height="800" alt="evidencia-codigo-20-deleteid-sqli-family" src="https://github.com/user-attachments/assets/14c9d3ce-c7ba-4546-b97e-6e1f0d4af140" />
 
 ---
 
