@@ -153,12 +153,11 @@ Emails (harsh@ics.com, nihal@ics.com, ...) and passwords '1234' of all records e
 Reproduced live in authorized lab (http://192.168.95.131:9292/) on 02/08/2026, in a non-destructive manner. Observed behavior confirms the Sensitive Data Exposure / Missing Authorization flaw.
 
 **a) Execution in browser** (real server response rendered, with evidence band):
-
-![Web execution evidence — 21-details-plaintext-disclosure](evidencia-web-21-details-plaintext-disclosure.png)
+<img width="1180" height="1294" alt="evidencia-web-21-details-plaintext-disclosure" src="https://github.com/user-attachments/assets/3fe1b575-c68b-4f05-abce-989083de88cf" />
 
 **b) Vulnerable code line** (`studentdetails.php`):
+<img width="2360" height="740" alt="evidencia-codigo-21-details-plaintext-disclosure" src="https://github.com/user-attachments/assets/f75c5dc0-33d8-4e57-bb4c-9c6a3154c67c" />
 
-![Source code evidence — 21-details-plaintext-disclosure](evidencia-codigo-21-details-plaintext-disclosure.png)
 
 > **Note:** credentials/PII displayed belong to lab test dataset. Remove real secrets before any external publication.
 
