@@ -65,11 +65,11 @@ Attack reproduced live against http://192.168.95.131:9292/ in a non-destructive 
 
 **a) Execution in browser** — real server response rendered in Chromium, with evidence band (request + payload + verdict):
 
-![Web execution evidence — 24-session-cookie-logout](evidencia-web-24-session-cookie-logout.png)
+<img width="1180" height="886" alt="evidencia-web-24-session-cookie-logout" src="https://github.com/user-attachments/assets/b495b91e-0623-462a-b229-7ad1cba783fc" />
 
 **b) Vulnerable code line** — source code snippet with sink highlighted (`(global session configuration)`):
 
-![Source code evidence — 24-session-cookie-logout](evidencia-codigo-24-session-cookie-logout.png)
+<img width="2360" height="920" alt="evidencia-codigo-24-session-cookie-logout" src="https://github.com/user-attachments/assets/fcb45a36-6944-443f-b56e-96d4f8a2888a" />
 
 ## 6. Impact
 
@@ -113,4 +113,5 @@ No known CVE covering these session weaknesses.
 - 2026-08-02 — Disclosure package preparation (this report).
 
 ---
-*Report generated from `_lib/findings_data.py` (single source of truth). Researcher: vinniboy021@gmail.com.*
+- **Email:** vinniboy021@gmail.com
+- **Repository:** https://github.com/mathurvishal/CloudClassroom-PHP-Project
