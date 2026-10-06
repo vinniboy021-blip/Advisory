@@ -1,4 +1,4 @@
-# CloudClassroom-PHP-Project 1.0 — Stored XSS in updatedetailsfromstudent.php
+<img width="1180" height="1357" alt="evidencia-web-33-updatedetailsfromfaculty-stored-xss" src="https://github.com/user-attachments/assets/1d788cf5-ad85-45f0-8e12-12c4aaad907e" /># CloudClassroom-PHP-Project 1.0 — Stored XSS in updatedetailsfromstudent.php
 
 | Field | Value |
 |-------|-------|
@@ -63,11 +63,10 @@ Attack reproduced live against http://192.168.95.131:9292/ in a non-destructive 
 
 **a) Execution in browser** — real server response rendered in Chromium, with evidence band (request + payload + verdict):
 
-![Web execution evidence — 34-updatedetailsfromstudent-stored-xss](evidencia-web-34-updatedetailsfromstudent-stored-xss.png)
+<img width="1180" height="1357" alt="evidencia-web-33-updatedetailsfromfaculty-stored-xss" src="https://github.com/user-attachments/assets/1acb8975-2b03-4ddd-9b73-590ae885468e" />
 
 **b) Vulnerable code line** — source code snippet with sink highlighted (`updatedetailsfromstudent.php`):
-
-![Source code evidence — 34-updatedetailsfromstudent-stored-xss](evidencia-codigo-34-updatedetailsfromstudent-stored-xss.png)
+<img width="2360" height="880" alt="evidencia-codigo-33-updatedetailsfromfaculty-stored-xss" src="https://github.com/user-attachments/assets/2b660ef1-4ee9-471e-844e-e5598a7c9ee5" />
 
 ## 6. Impact
 
@@ -112,4 +111,5 @@ No public CVE for this file/parameter in Vishal Mathur product nor in the twin '
 - 2026-08-02 — Disclosure package preparation (this report).
 
 ---
-*Report generated from `_lib/findings_data.py` (single source of truth). Researcher: vinniboy021@gmail.com.*
+- **Email:** vinniboy021@gmail.com
+- **Repository:** https://github.com/mathurvishal/CloudClassroom-PHP-Project
