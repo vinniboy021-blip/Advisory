@@ -1,5 +1,3 @@
-<img width="1180" height="1357" alt="evidencia-web-33-updatedetailsfromfaculty-stored-xss" src="https://github.com/user-attachments/assets/1d788cf5-ad85-45f0-8e12-12c4aaad907e" /># CloudClassroom-PHP-Project 1.0 — Stored XSS in updatedetailsfromstudent.php
-
 | Field | Value |
 |-------|-------|
 | **Internal ID** | CC-2026-34 |
