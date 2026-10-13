@@ -177,7 +177,8 @@ curl -H "Origin: http://evil-attacker.com" -H "Referer: http://evil-attacker.com
      http://127.0.0.1:9088/
 ```
 
-An equivalent zero-JavaScript-logic browser-based PoC (single `onload` auto-submit, no file manipulation) is provided in [poc/csrf_meta_overwrite.html](./poc/csrf_meta_overwrite.html). A fully automated script that exercises the same flow end-to-end is provided in [poc/exploit.sh](./poc/exploit.sh), with setup handled by [poc/setup_target.sh](./poc/setup_target.sh).
+An equivalent zero-JavaScript-logic browser-based PoC (single `onload` auto-submit, no file manipulation) is provided in [csrf_meta_overwrite.html](https://github.com/user-attachments/files/33399329/csrf_meta_overwrite.html). A fully automated script that exercises the same flow end-to-end is provided in [exploit.sh](https://github.com/user-attachments/files/33399376/exploit.sh), with setup handled by [setup_target.sh](https://github.com/user-attachments/files/33399417/setup_target.sh).
+
 
 ### Expected Result
 
