@@ -261,7 +261,7 @@ grep -Ei "(union|select|extractvalue|concat|<script|onerror|onload|</textarea)" 
 | 02/08/2026 | Confirmed dynamically in authorized lab |
 | 02/08/2026 | Re-validated live with evidence (browser + code) |
 | 02/08/2026 | Disclosure package prepared (this advisory) |
-| (pending) | Vendor notification |
+| 06/10/2026 | Vendor notification |
 | (pending) | CVE requested/reserved |
 | (pending) | Fix made available |
 | (pending) | Advisory publication |
@@ -271,7 +271,7 @@ grep -Ei "(union|select|extractvalue|concat|<script|onerror|onload|</textarea)" 
 ## 14. Vendor Communication
 
 - **Vendor:** Vishal Mathur (`mathurvishal`)
-- **Channel used:** Private GitHub Security Advisory of repository / maintainer email (see `VENDOR-EMAIL.md`)
+- **Channel used:** Private GitHub Security Advisory of repository / maintainer email.
 - **Date of first notification:** (pending)
 - **Response status:** Awaiting notification/response
 - **Vendor positioning:** N/A at this time
