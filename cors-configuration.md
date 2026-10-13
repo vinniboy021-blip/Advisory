@@ -222,7 +222,7 @@ OPTIONS or mutation requests to `/_api/*` carrying unexpected Origin values.
 | 09/10/2026 | Finding identified through static analysis and dynamic testing |
 | 09/10/2026 | Behavior confirmed in authorized local environment |
 | 09/10/2026 | Disclosure package and visual evidence prepared |
-| pending | Vendor notified |
+| 13/10/2026 | Vendor notified |
 | pending | CVE requested or reserved, if applicable |
 | pending | Fix made available |
 | pending | Advisory published |
@@ -277,6 +277,5 @@ Use of information in this document is solely the reader's responsibility.
 
 For corrections, updates or additional information:
 
-    Email: vinniboy021@gmail.com
-    Repository: [https://github.com/mathurvishal/CloudClassroom-PHP-Project](https://github.com/ashmaroli/jekyll-manager)
-
+- **Email:** vinniboy021@gmail.com
+- **Repository:** https://github.com/ashmaroli/jekyll-manager
