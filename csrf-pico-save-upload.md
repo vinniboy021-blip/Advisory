@@ -291,8 +291,10 @@ grep "POST / HTTP" access.log
 
 ## 15. Credits
 
-- **Researcher:** Security Researcher
-- **Organization:** Pico CMS Security Research Lab
+The vulnerability was identified and reported by:
+
+- **Researcher:** vinniboy021@gmail.com
+- **Organization:** Independent security research
 - **Contact:** vinniboy021@gmail.com
 
 ---
