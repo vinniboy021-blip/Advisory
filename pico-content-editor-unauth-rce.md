@@ -179,8 +179,8 @@ Reproduced in an authorized local lab with Pico CMS 3.0.0-alpha.2 and PicoConten
 
 **Evidence:**
 
-- [Vulnerability exposure](./evidence/vulnerability-exposure.png)
-- [PoC execution](./evidence/poc-execution.png)
+<img width="1000" height="1672" alt="vulnerability-exposure" src="https://github.com/user-attachments/assets/f8206954-790d-459c-9e32-5be4797ae2c3" />
+<img width="1000" height="1753" alt="poc-execution" src="https://github.com/user-attachments/assets/f4b5ec18-b32f-4218-a9f3-d647165193c0" />
 
 ---
 
@@ -214,7 +214,8 @@ PWNED-RCE-TEST:uid=33(www-data) gid=33(www-data) groups=33(www-data)
 - Does not contain real credentials.
 - Does not automate mass exploitation.
 
-The automated flow is available in [poc.sh](./poc.sh), and the target installation helper is [scripts/setup_target.sh](./scripts/setup_target.sh). The script creates its transient payload and response files under `evidence_run/` when executed; those runtime files are not part of the retained disclosure package.
+The automated flow is available in [poc.sh](https://github.com/user-attachments/files/33978373/poc.sh)
+, and the target installation helper is [setup_target.sh](https://github.com/user-attachments/files/33978405/setup_target.sh). The script creates its transient payload and response files under `evidence_run/` when executed; those runtime files are not part of the retained disclosure package.
 
 ---
 
