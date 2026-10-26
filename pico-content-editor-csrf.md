@@ -164,8 +164,8 @@ Reproduced in an authorized local lab with PicoUsers enabled. An anonymous save 
 
 **Evidence:**
 
-- [Vulnerability exposure](./evidence/vulnerability-exposure.png)
-- [PoC execution](./evidence/poc-execution.png)
+<img width="1000" height="1672" alt="vulnerability-exposure" src="https://github.com/user-attachments/assets/838e59fa-5c53-443e-840c-e58dfad78495" />
+<img width="1000" height="1753" alt="poc-execution" src="https://github.com/user-attachments/assets/d3e868aa-7543-4457-9169-3b1591d4a869" />
 
 ---
 
@@ -180,7 +180,8 @@ curl -b cookies.txt \
      http://127.0.0.1:9088/
 ```
 
-The included [PoC script](./poc.sh) sends the tokenless save request and verifies the resulting title. The [target setup helper](./scripts/setup_target.sh) installs PicoContentEditor in its default-open configuration; reproducing the authenticated control shown in the evidence additionally requires installing PicoUsers, granting `PicoContentEditor/save`, authenticating, and supplying the resulting session cookie to the request.
+The included [poc.sh](https://github.com/user-attachments/files/33978254/poc.sh)
+sends the tokenless save request and verifies the resulting title. The [setup_target.sh](https://github.com/user-attachments/files/33978277/setup_target.sh) installs PicoContentEditor in its default-open configuration; reproducing the authenticated control shown in the evidence additionally requires installing PicoUsers, granting `PicoContentEditor/save`, authenticating, and supplying the resulting session cookie to the request.
 
 ### Expected Result
 
