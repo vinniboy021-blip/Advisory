@@ -168,7 +168,9 @@ PicoContentEditor={"meta":"Title: SSRF Lab\nPicoContentEditor:\n    ContentTools
 
 Reproduced in an authorized local Docker compose lab (Pico 2.1.4, PicoContentEditor rev 02d5ad6c, port 9092). The test targeted a Python `http.server` listener on the Docker host — no real internal service, cloud metadata endpoint, or third-party host was contacted. The metadata submitted was byte-for-byte equivalent to the existing page metadata, so no effective content change was made.
 
-**Evidence:** [`evidence/listener-callback.txt`](./evidence/listener-callback.txt), [`evidence/response-disclosure.txt`](./evidence/response-disclosure.txt), [`evidence/reproduction.txt`](./evidence/reproduction.txt), [`evidence/source-trace.md`](./evidence/source-trace.md), [`evidence/poc-report.png`](./evidence/poc-report.png), [`evidence/advisory.png`](./evidence/advisory.png)
+**Evidence:**
+<img width="820" height="1655" alt="vulnerability-exposure" src="https://github.com/user-attachments/assets/78f2d50c-6e60-43a8-ac39-76f19a2d6dc7" />
+<img width="820" height="2307" alt="poc-report" src="https://github.com/user-attachments/assets/fc0ced88-c0f1-4ab8-8923-bfc38238aa3d" />
 
 ---
 
@@ -317,10 +319,9 @@ echo "   Deny Auth::\$canSave by default when no auth plugin is installed."
 
 1. Start the authorized lab: `docker compose up -d` (Pico CMS 2.1.4 with PicoContentEditor, port 9092, no PicoUsers).
 2. Start a listener on the Docker host: `python3 -m http.server 8890`.
-3. Run `bash report/pico-content-editor-ssrf/poc.sh`.
+3. Run `bash poc.sh`.
 4. Observe listener log — Pico container issues `GET /README.md?/translations/en.json`.
-5. Inspect `evidence/render-response.html` — confirm no error from Pico, confirming the metadata was written and the URL was fetched.
-6. Compare: a page with no `ContentToolsUrl` override generates no outbound request.
+5. Compare: a page with no `ContentToolsUrl` override generates no outbound request.
 
 ---
 
