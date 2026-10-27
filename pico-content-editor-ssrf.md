@@ -169,6 +169,7 @@ PicoContentEditor={"meta":"Title: SSRF Lab\nPicoContentEditor:\n    ContentTools
 Reproduced in an authorized local Docker compose lab (Pico 2.1.4, PicoContentEditor rev 02d5ad6c, port 9092). The test targeted a Python `http.server` listener on the Docker host — no real internal service, cloud metadata endpoint, or third-party host was contacted. The metadata submitted was byte-for-byte equivalent to the existing page metadata, so no effective content change was made.
 
 **Evidence:**
+
 <img width="820" height="1655" alt="vulnerability-exposure" src="https://github.com/user-attachments/assets/78f2d50c-6e60-43a8-ac39-76f19a2d6dc7" />
 <img width="820" height="2307" alt="poc-report" src="https://github.com/user-attachments/assets/fc0ced88-c0f1-4ab8-8923-bfc38238aa3d" />
 
