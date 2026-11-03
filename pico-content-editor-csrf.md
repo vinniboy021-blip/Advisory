@@ -278,7 +278,7 @@ grep "POST / HTTP" access.log
 | 11/10/2026 | Disclosure package prepared |
 | 19/10/2026 | Confirmed with an authenticated PicoUsers editor session in an authorized local lab |
 | 23/10/2026 | Documentation reconciled with the retained PoC and evidence artifacts |
-| pending | Vendor notified |
+| 11/10/2026 | Vendor notified |
 | pending | CVE requested or reserved |
 | pending | Fix made available |
 | pending | Advisory published |
