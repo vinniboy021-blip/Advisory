@@ -273,7 +273,7 @@ grep "POST / HTTP" access.log
 | 11/10/2026 | Vulnerability identified (static code analysis of PicoContentEditor) |
 | 11/10/2026 | Confirmed in authorized local lab environment |
 | 11/10/2026 | Disclosure package prepared |
-| pending | Vendor notified |
+| 11/10/2026 | Vendor notified |
 | pending | CVE requested or reserved |
 | pending | Fix made available |
 | pending | Advisory published |
