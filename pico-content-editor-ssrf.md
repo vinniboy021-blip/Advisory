@@ -404,7 +404,7 @@ grep -r 'ContentToolsUrl' /var/www/pico/content/
 | 26/10/2026 | Confirmed dynamically in authorized lab — outbound callback received |
 | 26/10/2026 | Non-blind response disclosure confirmed |
 | 27/10/2026 | Advisory finalized |
-| Pending | Vendor notification via GitHub Private Security Advisory |
+| 11/10/2026 | Vendor notification via GitHub Private Security Advisory |
 | Pending | CVE requested |
 | Pending | Vendor assessment and coordinated remediation |
 | Pending | Advisory published |
