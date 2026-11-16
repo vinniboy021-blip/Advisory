@@ -23,7 +23,7 @@ Crater Invoice (≤ 6.0.6) fails to encode HTML entities in the `notes` field of
 | Crater Invoice | ≤ 6.0.6 | None | Affected |
 | Component: Invoice PDF preview | tag 6.0.6 / commit 05d5ce26 | None | Affected |
 
-- **Repository / Ecosystem:** https://github.com/vinniboy021-blip/crater
+- **Repository / Ecosystem:** https://github.com/crater-invoice-inc/crater
 - **Evaluated stack:** PHP 8.1, Laravel 8.x, Apache 2.4, MariaDB 10.6, Debian (Docker)
 
 ### Unaffected Products
@@ -384,4 +384,4 @@ This advisory is published for educational, defensive, and security improvement 
 ## 19. Contact
 
 - **Email:** vinniboy021@gmail.com
-- **Repository:** https://github.com/vinniboy021-blip/crater
+- **Repository:** https://github.com/vinniboy021-blip
