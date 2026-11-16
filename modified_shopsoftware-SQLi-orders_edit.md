@@ -24,7 +24,7 @@ modified eCommerce Shopsoftware v3.3.0 contains a time-based blind SQL injection
 | Component: admin/orders_edit.php | rev 16825 | None | Affected |
 | Component: admin/includes/functions/orders_functions.php | rev 16825 | None | Affected |
 
-- **Repository / Ecosystem:** https://www.modified-shop.org
+- **Repository / Ecosystem:** https://github.com/modified-shop/modified-shop
 - **Evaluated stack:** PHP 8.1.34, Apache 2.4, MariaDB 10.6, Debian Linux (Docker)
 
 ---
