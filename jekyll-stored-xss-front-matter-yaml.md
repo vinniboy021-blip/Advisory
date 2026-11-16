@@ -1,6 +1,6 @@
 # Security Advisory: Stored Cross-Site Scripting via front_matter YAML Fields in jekyll-admin
 
-> **Identifier:** JM-33 / Pending CVE assignment
+> **Identifier:** Pending CVE assignment
 > **Publication Date:** 27/10/2026
 > **Last Updated:** 27/10/2026
 > **Severity:** High
@@ -449,4 +449,4 @@ The information was obtained in an authorized local environment and disclosed re
 ## 19. Contact
 
 - **Email:** vinniboy021@gmail.com
-- **Repository:** https://github.com/jekyll/jekyll-admin
+- **Repository:** https://github.com/vinniboy021-blip
