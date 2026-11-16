@@ -321,4 +321,4 @@ The information was obtained in an authorized environment and disclosed responsi
 ## 19. Contact
 
 - **Email:** vinniboy021@gmail.com
-- **Repository:** https://github.com/vinniboy021/agent-cve-hunter
+- **Repository:** https://github.com/vinniboy021-blip/Advisory
