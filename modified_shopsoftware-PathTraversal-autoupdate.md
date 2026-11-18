@@ -317,4 +317,4 @@ This advisory is published for educational, defensive, and security improvement 
 ## 19. Contact
 
 - **Email:** vinniboy021@gmail.com
-- **Repository:** https://github.com/vinniboy021/agent-cve-hunter
+- **Repository:** https://github.com/vinniboy021-blip/Advisory
