@@ -24,7 +24,7 @@ modified eCommerce Shopsoftware v3.3.0 contains a SQL Injection vulnerability in
 | Component: admin/banner_statistics.php | rev 16825 | None | Affected |
 | Component: admin/includes/functions/html_graphs.php | rev 16825 | None | Affected |
 
-- **Repository / Ecosystem:** https://www.modified-shop.org
+- **Repository / Ecosystem:** https://github.com/modified-shop/modified-shop
 - **Evaluated stack:** PHP 8.1.34, Apache 2.4, MariaDB 10.6, Debian Linux (Docker)
 
 ---
@@ -287,4 +287,4 @@ This advisory is published for educational, defensive, and security improvement 
 ## 17. Contact
 
 - **Email:** vinniboy021@gmail.com
-- **Repository:** https://github.com/vinniboy021/agent-cve-hunter
+- **Repository:** https://github.com/vinniboy021-blip/Advisory
